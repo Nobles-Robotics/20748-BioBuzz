@@ -41,11 +41,13 @@ dependencies {
 
     implementation 'dev.nextftc.v2:robot:0.4.0'
     implementation("dev.frozenmilk.sinister:Sloth:0.3.2")
+    implementation 'dev.anygeneric:blazeftc:0.1.67'
 }
 
 repositories {
     // Dairy releases repository
     maven {
         url = "https://repo.dairy.foundation/releases"
+        url 'https://maven.anygeneric.dev/'
     }
 }
