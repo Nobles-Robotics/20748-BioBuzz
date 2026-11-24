@@ -59,8 +59,8 @@ public class Turret implements Mechanism {
 
     public Command decrementKS(){
         return instant(()-> {
-            kV += 0.01;
-            motor.getVelocityConstants().setKV(kV);
+            kS -= 0.01;
+            motor.getVelocityConstants().setKV(kS);
         });
     }
 }
